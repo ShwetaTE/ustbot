@@ -1,6 +1,5 @@
 import openai
 
-openai.api_key = "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"
 
 
 def ask_openai(prompt):
