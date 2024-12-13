@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-osg4ktrl&)oyywu+*01lksljq2vu4z53)=97#ar91e8exp#&3c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://4d13-43-243-213-205.ngrok-free.app','4d13-43-243-213-205.ngrok-free.app','127.0.0.1:8000','127.0.0.1']
+ALLOWED_HOSTS = ['https://ust-bot.azurewebsites.net','ust-bot.azurewebsites.net','127.0.0.1:8000','127.0.0.1']
 
 
 # Application definition
