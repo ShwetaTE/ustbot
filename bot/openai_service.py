@@ -10,6 +10,7 @@ import openai
 from openai_bot.settings import OPENAI_API_KEY
 openai.api_key = OPENAI_API_KEY
 
+
 def ask_openai(prompt):
     print("inside ask openai", prompt)
     try:
