@@ -17,7 +17,7 @@ import os
 
 load_dotenv()
 
-# OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 BOT_APP_ID = os.getenv("BOT_APP_ID")
 BOT_APP_PASSWORD = os.getenv("BOT_APP_PASSWORD")
 
