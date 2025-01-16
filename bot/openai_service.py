@@ -7,7 +7,9 @@ import openai
 
 # # Set up OpenAI API key
 # OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-from openai_bot.settings import OPENAI_API_KEY
+# from openai_bot.settings import OPENAI_API_KEY
+OPENAI_API_KEY="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" 
+
 openai.api_key = OPENAI_API_KEY
 
 
