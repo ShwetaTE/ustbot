@@ -15,12 +15,12 @@ def bot_handler(request):
             # Parse the incoming Teams message
             data = json.loads(request.body)
             user_message = data.get('text')
-            user_email = data.get('user_email')
+            # user_email = data.get('user_email')
             print(f"Received user message: {user_message}")
-            print(f"Received user email: {user_email}")
+            # print(f"Received user email: {user_email}")
 
             # Get response from OpenAI
-            openai_response = ask_openai(user_message, user_email)
+            openai_response = ask_openai(user_message)
             print(f"OpenAI response: {openai_response}")
 
             # Craft a simple text response for Web Chat
